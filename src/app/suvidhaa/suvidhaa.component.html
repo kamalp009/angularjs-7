@@ -1,0 +1,22 @@
+<p>suvidhaa works!</p>
+
+<section style="background:#efefe9;">
+    <div class="container">
+        <div class="board">
+            <!-- Navigation Area (Circular Tabs) -->
+            <msw-navbar></msw-navbar>
+            <!-- End Navigation Area (Circular Tabs) -->
+ 
+            <!-- Content Area -->
+            <div class="tab-content">
+                <!-- Routed view  -->
+                <router-outlet name="sidebar"></router-outlet>
+            </div>
+            <!-- End Content Area -->
+        </div>
+
+        <pre>{{ formData | json }}</pre>
+ 
+        <!-- For Debugging: show our formData as it is being typed -->
+    </div>
+</section>
